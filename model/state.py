@@ -12,7 +12,7 @@ class State:
     Lng: float
     Area: float
     Population: int
-    Neighbors: []
+    Neighbors: list
 
     def __str__(self):
         return self.Name
