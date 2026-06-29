@@ -156,6 +156,7 @@ class DAO():
         if cnx is None:
             print("Connessione fallita")
         else:
+
             cursor = cnx.cursor(dictionary=True)
             query = """select s1.id as id1, s2.id as id2
                         from (
